@@ -81,9 +81,9 @@ function Airplane(name) {
     this.odometer = 0;
   }
   
-  // Car.prototype.fill() = function(gallons){
-  //   return gallons + `${this.tank}`;
-  // } 
+  Car.prototype.fill = function(gallons){
+    return this.tank = this.tank + gallons;
+  } 
   
   /*
     TASK 3
