@@ -111,10 +111,10 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. global - in global scope, "this" is tied to the console object
+    2. implicit - when a dot calls a function, "this" is tied to the object listed to the left of the function
+    3. new - when using a constructor function, "this" is tied to the new object that is created by the constructor
+    4. explicit - when using the call or apply method, "this" can be explicitly defined to an object or array of arguments
   */
   
   
